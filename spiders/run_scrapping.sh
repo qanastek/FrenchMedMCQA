@@ -1,1 +1,1 @@
-rm -f collect.json && scrapy runspider collect.py -o collect.json && python FixLabels.py && python MakeSplit.py
+rm -f collect.json && scrapy runspider collect.py -o collect.json && python FixLabels.py && python MakeSplit.py && python ConvertCSV.py
