@@ -24,24 +24,21 @@ FrenchMedMCQA is the first publicly available Multiple-Choice Question Answering
 
 FrenchMedMCQA is the first open-source Multiple-Choice Question Answering (MCQA) dataset which propose questions with a single or multiple answer(s) based on real-world medical exam questions.
 
-## Requirements
-
-`pip3 install -r requirements.txt`
-
 ## Data Download and Preprocessing
 
 To collect the dataset mentioned in the paper, please follow the below steps :
 
 - Clone the repo
+- Go into `./spiders/` by using `cd ./spiders/`
 - Install the dependencies : `pip3 install -r requirements.txt`
-- Run the download, processing and verification scripts using : `./run_scrapping.sh`
+- Run the download, processing and verification scripts using : `bash ./run_scrapping.sh`
 - The corpus is transformed into :
     - JSON files available in `./corpus/`
     - CSV files available in `./corpus_csv/`
 
 ## Supported Tasks and Leaderboards
 
-`multiple-choice-QA`, `open-domain-QA`: The dataset can be used to train a model for multi-choice questions answering, open domain questions answering.
+`multiple-choice-QA` , `open-domain-QA`: The dataset can be used to train a model for multi-choice questions answering, open domain questions answering.
 
 The questions on these exams are difficult and often necessitate a deeper domain and language comprehension.
 
