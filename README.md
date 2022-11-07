@@ -1,7 +1,7 @@
 <h1 align="center">FrenchMedMCQA </h1>
 
 <p align="center">
-  <img width="200" src="./illustrations/Pipeline.png">
+  <img width="400" src="./illustrations/Pipeline.png">
 </p>
 
 <h3 align="center">FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain</h3>
