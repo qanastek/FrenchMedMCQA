@@ -68,11 +68,6 @@ Example of a question with multiple answers :
         "c",
         "d"
     ],
-    "subject_name": "pharmacie",
-    "type": "multiple",
-    "last_update": "07/11/2022",
-    "source": "www.remede.org",
-    "source_url": "http://www.remede.org/internat/pharmacie/qcm-internat.html?page=34"
 }
 ```
 
@@ -82,11 +77,6 @@ Example of a question with multiple answers :
 - `question` : Question text
 - `answers` : The list of 5 options from A to E
 - `correct_answers` : Correct option(s) (Can be one or more answer(s) to the question)
-- `subject_name` : Medical field treated by the question
-- `type` : The type of question is `single` (one correct answer only) or `multiple` (multiple correct answers)
-- `last_update` : Date of the scrapping
-- `source` : Website on which the data is collected
-- `source_url` : Full url to the collected ressource
 
 ### Data Splits
 
